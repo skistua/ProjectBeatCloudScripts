@@ -48,7 +48,7 @@ handlers.setRecordData = function (args, context) {
       PlayFabId: currentPlayerId
     };
 
-    server.UpdateUserPublisherReadOnlyData(updateUserDataRequest)
+    server.UpdateUserReadOnlyData(updateUserDataRequest)
     if (updateStatistic) {
       var statisticsRequest =
       {
